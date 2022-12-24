@@ -4,7 +4,7 @@ const app = express()
 const mongoose = require('mongoose')
 const port = process.env.PORT || 3000;
 
-const url = "mongodb+srv://dotienphong1993:Phong186@cluster0.ocjhu.mongodb.net/Schedule?retryWrites=true&w=majority"
+const url = "mongodb+srv://dotienphong1993:Phong186@cluster0.ocjhu.mongodb.net/Schedule_Phong?retryWrites=true&w=majority"
 const taskRoutes = require('./routes/taskRoutes')
 
 app.use(express.json())
